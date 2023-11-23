@@ -3,7 +3,7 @@ from torch_geometric.nn import GCNConv, ChebConv
 from torch_geometric.nn import GraphConv, TopKPooling
 from torch_geometric.nn import global_mean_pool as gap, global_max_pool as gmp
 import torch.nn.functional as F
-from CSPool_Model import SAGPool
+from CSPool_Model import CSPool
 from Dataset import MyGraphDataset
 import numpy as np
 
