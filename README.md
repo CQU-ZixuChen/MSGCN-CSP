@@ -1,3 +1,3 @@
-# MIGCN-CSP
-The source code of the model: Multi-scale Interactive Graph Convolutional Network with Contrastive-Learning Enhanced Self-Attention Pooling (MIGCN-CSP). 
-The training code will be realeased after the acceptance of this manuscript, which is submitted to Engineering Applications of Artificial Intelligence.
+# MSGCN-CSP
+The source code of the model: Multi-Scale Graph Convolutional Network with Contrastive-Learning enhanced Self-attention Pooling (MSGCN-CSP). 
+The training code will be realeased after the acceptance of this manuscript, which is submitted to Knowledge-based Systems.
