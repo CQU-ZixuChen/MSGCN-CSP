@@ -1,7 +1,7 @@
 # MSGCN-CSP
 The source code of the model: Multi-Scale Graph Convolutional Network with Contrastive-Learning enhanced Self-attention Pooling (MSGCN-CSP). 
 The parallel shaft gearbox dataset used in this paper is originated from https://github.com/HazeDT/PHMGNNBenchmark?tab=readme-ov-file.
-![image](https://github.com/CQU-ZixuChen/MSGCN-CSP/blob/master/Graphical Abstracts.png)
+![image](https://github.com/CQU-ZixuChen/MSGCN-CSP/blob/main/Graphical%20Abstract.pdf)
 
 If this code is helpful to you, please cite this paper as follows, thank you!
 @article{CHEN2024114497,
