@@ -20,18 +20,18 @@ class Net(torch.nn.Module):
 
         self.conv1 = ChebConv(self.num_features, self.nhid, 1)
 
-        self.poolp1 = SAGPool(self.nhid, ratio=self.pooling_ratio)
-        self.pooln1 = SAGPool(self.nhid, ratio=self.pooling_ratio)
+        self.poolp1 = CSPool(self.nhid, ratio=self.pooling_ratio)
+        self.pooln1 = CSPool(self.nhid, ratio=self.pooling_ratio)
 
         self.conv2 = ChebConv(self.nhid, self.nhid, 1)
 
-        self.poolp2 = SAGPool(self.nhid, ratio=self.pooling_ratio)
-        self.pooln2 = SAGPool(self.nhid, ratio=self.pooling_ratio)
+        self.poolp2 = CSPool(self.nhid, ratio=self.pooling_ratio)
+        self.pooln2 = CSPool(self.nhid, ratio=self.pooling_ratio)
 
         self.conv3 = ChebConv(self.nhid, self.nhid, 1)
 
-        self.poolp3 = SAGPool(self.nhid, ratio=self.pooling_ratio)
-        self.pooln3 = SAGPool(self.nhid, ratio=self.pooling_ratio)
+        self.poolp3 = CSPool(self.nhid, ratio=self.pooling_ratio)
+        self.pooln3 = CSPool(self.nhid, ratio=self.pooling_ratio)
 
         self.lin1 = torch.nn.Linear(self.nhid * 2, self.nhid)
         self.lin2 = torch.nn.Linear(self.nhid, self.nhid // 2)
